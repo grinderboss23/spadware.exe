@@ -13314,3 +13314,10 @@ local Button = ScriptTab:CreateButton({
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/Insertl/QuotasHub/main/BETAv1.3"))()
    end,
 })
+
+local Button = ScriptTab:CreateButton({
+   Name = "homohack",
+   Callback = function()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
+   end,
+})
