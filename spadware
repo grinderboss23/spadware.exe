@@ -13113,6 +13113,13 @@ end)
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Jerk Off",
+   Callback = function()
+	   loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+   end,
+})
+
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed",
    Range = {0, 250},
